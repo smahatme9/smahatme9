@@ -1,12 +1,13 @@
+
 <?php
 // Assuming you have a MySQL database connection
-$servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_database_name";
+$servername = "sql105.infinityfree.com";
+$username = "if0_34597479";
+$password = "Sagar@9890";
+$dbname = "if0_34597479_Logininfo";
 
 // Create a connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servernam, $username, $password, $dbname);
 
 // Check if the connection was successful
 if (!$conn) {
